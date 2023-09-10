@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+</head>
+<body>
+    <h1>Links</h1>
+    <b>Used as 'a' tag.</b>
+    <hr>
+    <br>
+
+    <h2>External Links</h2> 
+
+    <p>
+        External links are those types of links where u sending a user for your website to someone else's website. <br>
+        <br>
+
+        Now, there r 2 types of External links: <br>
+        <br>
+        
+        <b>1.</b> {target="_self"}  means that u are loading someone else's website on the same page, that will close ur page and so no trafficking on ur page. therefore not good. <br>
+        <span><b>Ex. </b></span><a href="https://www.youtube.com/" target="_self">youtube.com</a><br>
+         <br>
+
+        <b>2.</b> {target="_blank"}  means that u r opening someone else's website on a new page. that is good as user is still on your website. <br>
+        <span><b>Ex. </b></span> <a href="https://www.youtube.com/" target="_blank">youtube.com</a>
+    </p>
+    <hr>
+    <!----for opening link in another website-->
+
+    
+    <!--for opening link on the SAME tab (not prefered first bcz of less engagement with own website)-->
+    <!--above links r called extenal links, used to link any other websites-->
+    <br>
+
+    <h2>Internal Links</h2>
+
+    <p>
+        Internal links are those types of links where u sending a user from one of your page to YOUR other page. <br>
+        <br>
+
+        Now, there r 2 types of Internal links: <br>
+        <br>
+        <ul>
+            <li>
+                Sending a user to ur page which is stored in same folder. <br>
+                can be done in 2 ways:
+                <ol> <br>
+                    <li>
+                        <b>absolute link</b>: Means tht u r starting to come from the main folder to inner ones. <br>
+                        <br>
+                         written as: <br>
+                         <b>< a href="/html/lecture 2/second.html" target="_blank">lec2 second link < / a > </b> <br>
+                         <br>
+                         Ex. </b></span><a href="/html/lecture 2/second.html" target="_blank">lec2 second link</a> <br>
+                         ['/' for absolute link]                   
+                    </li>
+                    <br>
+                    <li>
+                        <b>relative link</b>: Means tht u just have to write the name of the file. it will work the same as long as that file is in the same folder as your starting file. <br>
+                        <br>
+                         written as: <br>
+                         <b> < a href="second.html" target="_blank"> lec2 second link < / a > </b> <br>
+                         <br>
+                          Ex. <a href="second.html" target="_blank"> lec2 second link</a>
+                          <br>
+                    </li>
+                </ol>
+            </li>
+            <br>
+            <li>
+                Sending a user to ur page which is stored in other folder. <br>
+                can be done in 2 ways: <br>
+                <br>
+                <ol> 
+                    <li>
+                        <b>absolute link</b>: Means tht u r starting to come from the main folder to inner ones. <br>
+                        <br>
+                         written as: <br>
+                         <b>< a href="/html/lecture1/tags.html" target="_blank">lec1 tags  < / a > </b>
+                         <br>
+                         <br>
+                         <b>Ex.</b> <a href="/html/lecture1/tags.html" target="_blank">lec1 tags </a> <br>
+                         [ '/' for absolute link]
+                        <br>
+                    </li>
+                    <br>
+                    <li>
+                        <b>relative link</b>: Means tht u r going to another folder -> file relative to current file <br>
+                        means that the path will be: coming out of current file -> folder then go to the needed folder -> file.<br>
+                        <br>
+                         written as: <br>
+                         <b> < a href="../lecture1/tags.html">lec1 tags < / a > </b><br>
+                         <br>
+                          <b>Ex.</b> <a href="../lecture1/tags.html" target="_blank">lec1 tags</a> <br>
+                          ['../' for relative link]
+                          <br>
+                    </li>
+                </ol>
+            </li>
+        </ul> 
+    </p>
+    <hr>
+
+</body>
+</html>
