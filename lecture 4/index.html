@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <fieldset>
+    <legend>Signup form</legend>
+    <form>
+        <div>
+            <label for="name">Name:</label>
+            <input placeholder="first name" type="text" id="name" name="name">
+        </div>
+
+        <div>
+            <label for="roll no">roll number:</label>
+            <input type="number" id="roll no" name="roll no">
+        </div>
+
+        <div>
+            <label for="e-address">email address</label>
+            <input type="email" id="e-address" name="e-address" value="@gmail.com">
+        </div>
+
+        <div>
+            <label for="pswd">password</label>
+            <input type="password" id="pswd" name="pswd"> <br>
+        </div>
+        <br>
+        <div>
+           <input type="date"> <br>
+           <input type="file"> <br>
+           <input type="color">
+           <input type="hidden" value="10" name="hiddenvalue">
+        </div>
+        <br>
+        <div>
+            <span>select gender</span> <br>
+           <input type="radio" name="gender" id="male" value="m">
+           <label for="male">male</label>
+           <input type="radio" name="gender" id="female" value="f">
+           <label for="female">female</label> <br>
+
+           <br>
+            <span>select option</span> <br>
+           <input type="radio" name="option" id="optn1">
+           <label for="optn1">option 1</label>
+           <input type="radio" name="option" id="optn2">
+           <label for="optn2">option 2</label>
+        </div>
+
+        <br>
+
+        <div>
+            <span>select multiple options</span> <br>
+            <label>
+                <input type="checkbox" name="opt">
+                option 1
+            </label>
+
+            <label>
+                <input type="checkbox" name="opt">
+                option 2
+            </label>
+
+            <label>
+                <input type="checkbox" name="opt">
+                option 3
+            </label>
+        </div>
+        <br>
+        <div>
+            <label>
+                <input type="radio" name="option">
+                example
+            </label>
+        </div>
+        <br>
+        <div>
+            <label >
+                choose one:
+                <select name="optionkey">
+                    <option value="1">option 1</option>
+                    <option value="2">option 2</option>
+                    <option value="3">option 3</option>
+                </select>
+            </label>
+        </div>
+        <br>
+        <div>
+            <button type="submit">submit</button>
+            <button type="button">plain button</button>
+            <button type="reset">reset</button>
+        </div>
+    </form>
+   </fieldset>
+</body>
+</html>
